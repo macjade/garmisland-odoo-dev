@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+garmisland.access_garm_oauth_client,access_garm_oauth_client,garmisland.model_garm_oauth_client,base.group_user,1,0,0,0
+garmisland.access_garm_oauth_code,access_garm_oauth_code,garmisland.model_garm_oauth_code,base.group_user,1,0,0,0
+garmisland.access_garm_oauth_token,access_garm_oauth_token,garmisland.model_garm_oauth_token,base.group_user,1,0,0,0
+
+access_product_template_custom,access.product.template.custom,product.model_product_template,base.group_user,1,1,1,1
+access_product_product_custom,access.product.product.custom,product.model_product_product,base.group_user,1,1,1,1
+access_product_tag_custom,access.product.tag.custom,product.model_product_tag,base.group_user,1,1,1,1
