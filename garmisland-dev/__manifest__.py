@@ -5,15 +5,17 @@
     "license": "LGPL-3",
     "author": "James Maduka",
     "website": "www.jamesmaduka.com",
-    "category": "Inventory Sync",
+    "category": "Inventory",
     "summary": """Garm Island syncs products and orders across your retail channels. Keep your inventory aligned.""",
     "description": """Garm Island syncs products and orders across your retail channels. Keep your inventory aligned.""",
-    "images": ["static/description/icon.png"],
-    'depends': ['base', 'web', 'product', 'sale_management', 'sale_stock'],
-    'data': [
+    "images": ["static/description/banner.png"],
+    "depends": ['base', 'web', 'product', 'sale_management', 'sale_stock'],
+    "data": [
         'security/ir.model.access.csv',
         'views/garmisland_authorization_views.xml'
     ],
+    "demo": [],
+    "qweb": [],
     "application": True,
     "installable": True,
     "auto_install": True,
