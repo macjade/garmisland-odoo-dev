@@ -7,15 +7,7 @@
     "website": "www.jamesmaduka.com",
     "category": "Inventory Sync",
     "summary": """Garm Island syncs products and orders across your retail channels. Keep your inventory aligned.""",
-    "description": """
-        <section class="oe_container">
-            <div class="oe_row oe_spaced">
-                <h2 class="oe_slogan">Garm Island</h2>
-                <p class="oe_slogan">Sync products and orders across your retail channels.</p>
-                <p>Keep inventory aligned and manage your channel connections from Odoo.</p>
-            </div>
-        </section>
-    """,
+    "description": """Garm Island syncs products and orders across your retail channels. Keep your inventory aligned.""",
     "images": ["static/description/icon.png"],
     'depends': ['base', 'web', 'product', 'sale_management', 'sale_stock'],
     'data': [
